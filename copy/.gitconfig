@@ -1,6 +1,6 @@
 [user]
-  name = Ben Alman
-  email = EMAIL
+  name = Mohammed Ameen
+  email = ameen.in@gmail.com
 [core]
   autocrlf = input
   whitespace = fix,space-before-tab,tab-in-indent,trailing-space
@@ -8,8 +8,10 @@
 [apply]
   whitespace = fix
 [alias]
+  a = add .
   br = branch
   ci = commit
+  cm = commit -m
   co = checkout
   df = diff
   g = grep -I
@@ -18,6 +20,7 @@
   rb = rbranch
   rv = review
   st = status
+  s = status
   ksdiff = difftool -y -t Kaleidoscope
 [branch "master"]
   remote = origin
